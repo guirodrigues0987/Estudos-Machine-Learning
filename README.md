@@ -55,7 +55,8 @@ Training runs in generations; the population size is set by `pop_size` in
    git clone https://github.com/guirodrigues0987/Estudos-Machine-Learning.git
    cd Estudos-Machine-Learning
    ```
-2. Create a virtual environment and install the dependencies:
+2. Create a virtual environment (Python 3.11 recommended) and install the dependencies.
+   `numpy` is pinned below 2.0 because `gym` and `nes-py` are not compatible with NumPy 2:
    ```bash
    python -m venv venv
    source venv/bin/activate
